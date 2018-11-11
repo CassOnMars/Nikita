@@ -1,7 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.3.26.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nikita.Storage\Nikita.Storage.csproj" />
+  </ItemGroup>
 
 </Project>
