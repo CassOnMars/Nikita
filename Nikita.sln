@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nikita", "Nikita\Nikita.csproj", "{870AC4C9-7E61-46AE-B5C7-A12AF6402380}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nikita.Storage", "Nikita.Storage\Nikita.Storage.csproj", "{02495812-3076-4B8D-8B89-651A1DA0EFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.Storage.S3", "Nikita.Storage.S3\Nikita.Storage.S3.csproj", "{958C2608-30D6-4CC1-A50F-CBCDAF596967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.Tests", "Nikita.Tests\Nikita.Tests.csproj", "{17E6218E-BAFF-4BB4-BE9C-0A20B4A5D08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.Storage.Tests", "Nikita.Storage.Tests\Nikita.Storage.Tests.csproj", "{18CD45B5-FAC9-444E-A300-F74D23CFE3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikita.Storage.S3.Tests", "Nikita.Storage.S3.Tests\Nikita.Storage.S3.Tests.csproj", "{7DE477C3-51E1-4BEB-B72E-C70115AF4F41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870AC4C9-7E61-46AE-B5C7-A12AF6402380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870AC4C9-7E61-46AE-B5C7-A12AF6402380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870AC4C9-7E61-46AE-B5C7-A12AF6402380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870AC4C9-7E61-46AE-B5C7-A12AF6402380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02495812-3076-4B8D-8B89-651A1DA0EFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02495812-3076-4B8D-8B89-651A1DA0EFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02495812-3076-4B8D-8B89-651A1DA0EFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02495812-3076-4B8D-8B89-651A1DA0EFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958C2608-30D6-4CC1-A50F-CBCDAF596967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958C2608-30D6-4CC1-A50F-CBCDAF596967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958C2608-30D6-4CC1-A50F-CBCDAF596967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958C2608-30D6-4CC1-A50F-CBCDAF596967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E6218E-BAFF-4BB4-BE9C-0A20B4A5D08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E6218E-BAFF-4BB4-BE9C-0A20B4A5D08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E6218E-BAFF-4BB4-BE9C-0A20B4A5D08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E6218E-BAFF-4BB4-BE9C-0A20B4A5D08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CD45B5-FAC9-444E-A300-F74D23CFE3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CD45B5-FAC9-444E-A300-F74D23CFE3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CD45B5-FAC9-444E-A300-F74D23CFE3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CD45B5-FAC9-444E-A300-F74D23CFE3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE477C3-51E1-4BEB-B72E-C70115AF4F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE477C3-51E1-4BEB-B72E-C70115AF4F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE477C3-51E1-4BEB-B72E-C70115AF4F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE477C3-51E1-4BEB-B72E-C70115AF4F41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {654F71A8-A31D-4512-B2B6-B36E9B43B4EB}
+	EndGlobalSection
+EndGlobal
